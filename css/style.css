@@ -1,9 +1,11 @@
 .content-view {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
-.content-card {
-    height: 350px;
-    width: 400px;
+.content-card a img{
+    width: 640px;
+    height: 480px;
+    border-radius: 10%;
 }
