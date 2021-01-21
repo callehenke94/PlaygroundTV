@@ -1,5 +1,18 @@
-body {
-background-color: purple;
+nav {
+    background-color: #371267;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    background-color:white;
+    float:left;
 }
 
 .content-view {
