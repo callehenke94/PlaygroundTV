@@ -48,7 +48,41 @@ nav {
 /*Home page*/
     /*Content View*/
 
-.content-view {
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.5fr repeat(2, 1fr);
+  gap: 10px 10px;
+  grid-template-areas:
+    "promo-banner promo-banner promo-banner"
+    "content-view1 content-view2 content-view3"
+    "content-view4 content-view5 content-view6";
+}
+
+.promo-banner { grid-area: promo-banner; }
+
+.content-view1 { grid-area: content-view1; }
+
+.content-view2 { grid-area: content-view2; }
+
+.content-view3 { grid-area: content-view3; }
+
+.content-view4 { grid-area: content-view4; }
+
+.content-view5 { grid-area: content-view5; }
+
+.content-view6 { grid-area: content-view6; }
+
+
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+    /*.content-view {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -58,4 +92,4 @@ nav {
     width: 640px;
     height: 480px;
     border-radius: 10%;
-}
+}*/
