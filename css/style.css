@@ -82,6 +82,29 @@ img {
     height: auto;
 }
 
+.content-view1 a img {
+                        border-radius: 5%;
+}
+
+.content-view2 a img {
+                        border-radius: 5%;
+}
+
+.content-view3 a img {
+                        border-radius: 5%;
+}
+
+.content-view4 a img {
+                        border-radius: 5%;
+}
+
+.content-view5 a img {
+                        border-radius: 5%;
+}
+
+.content-view6 a img {
+                        border-radius: 5%;
+}
     /*.content-view {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
