@@ -20,6 +20,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    position: fixed;
+    width: 100%;
 }
 
 .logo a img{
