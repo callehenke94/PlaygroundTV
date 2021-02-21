@@ -115,14 +115,9 @@ img {
 .content-view6 a img {
                         border-radius: 5%;
 }
-    /*.content-view {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-}
+   
+/* Video Player*/
 
-.content-card a img{
-    width: 640px;
-    height: 480px;
-    border-radius: 10%;
-}*/
+iframe {
+    text-align: center;
+}
