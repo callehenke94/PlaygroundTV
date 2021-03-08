@@ -21,6 +21,8 @@ nav {
     align-items: center;
     min-height: 8vh;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo a img{
@@ -91,6 +93,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 2%;
 }
 
 .content-view1 a img {border-radius: 5%;}
