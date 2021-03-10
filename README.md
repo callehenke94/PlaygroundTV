@@ -2,8 +2,10 @@ This is my first Milestone Project and it is a basically a shell of a streaming 
 
 ## Sources
 
-https://cssgradient.io/ for background gradients
-https://grid.layoutit.com/ for the grid layout
+https://cssgradient.io/ for background gradients.
+https://grid.layoutit.com/ for the grid layout.
+https://www.hiclipart.com/ for the play icon.
+https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q DevEd for tips and help with navbar especially. 
 
 various tips and trix from https://stackoverflow.com/ and https://www.w3schools.com
 
